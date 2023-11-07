@@ -1,0 +1,173 @@
+
+@media (max-width: 1383px) {
+
+    header {
+        height: 160px;
+    }
+    .cabecalho-padaria h1 {
+        font-size: 50px;
+    }
+    .contanier .logo-1 {
+        right: 260px;
+        bottom: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .contanier h1 {
+        font-size: 60px;
+    }
+}    
+
+@media (max-width: 1280px) {
+    header{
+        height: 130px;
+    }
+    .cabecalho-padaria h1{
+        font-size: 45px;
+    }
+    .logo-cabecalho{
+        height: 80px;
+        width: 220px;
+    }
+    .menu li a {
+        width: 120px;
+        font-size: 13px;
+    }
+    .contanier h1{
+        font-size: 60px;
+    }
+    .contanier .logo-1{
+        height: 250px;
+        width: 250px;
+    }
+    .botoes .imagem {
+        width: 100px;
+        height: 60px; 
+    }
+    .produtos {
+       left: 300px;
+        display: grid;
+    }
+}
+
+@media (max-width: 1125px) {
+    .cabecalho-padaria h1{
+        font-size: 35px;
+    }
+    .contanier h1{
+        font-size: 50px;
+    }
+    .contanier .logo-1 {
+        right: 100px;
+        bottom: 200px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 770px) {
+    header {
+        height: 115px;
+    }
+    .cabecalho-padaria h1{
+        font-size: 25px;
+    }
+    .logo-cabecalho {
+        height: 60px;
+        width: 100px;
+        margin-left: 0px;
+    }
+    .contanier h1{
+        top: 150px;
+        font-size: 45px;
+    }
+    .cabecalho-padaria h1{
+        font-size: 30px;
+    }
+    .botoes {
+        margin-left: 50px;
+    }
+    .produtos {
+        float: right;
+        right: 100px;
+    }
+    .botoes p {
+        font-size: 16px;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    .card{
+        margin-top: 20px;
+        height: 205px;
+    }
+    .img-produtos {
+        width: 150px;
+        height: 150px;
+    }
+    .produtos{
+        grid-template-columns: 200px 200px ;
+        left: 0px;
+        margin-top: 90px;
+    }
+    .botoes .imagem {
+        width: 100px;
+        height: 60px;
+    }
+}
+
+ @media (max-width: 450px) {
+    .logo-cabecalho {
+        height: 40px;
+        width: 100px;
+    }
+    .cabecalho-padaria h1 {
+        font-size: 22px;
+    }
+    .menu li a {
+        font-size: 10px;
+        width: 90px;
+        float: none;  
+    }
+    .menu {
+        text-align: right;
+    }
+    .produtos{
+        top: 130px;
+        display: block;
+        width: 40%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .img-produtos {
+        width: 150px;
+        height:100px;
+    }
+    .card{
+        margin: 0;
+        height: 50%;
+    }
+    .card p{
+        font-size: 13px;
+        margin: 0;
+        background-color: yellow;
+    }
+    .botoes{
+        margin: 0;
+        left: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .botao p{
+        font-size: 14px;       
+    }
+    .botoes .imagem {
+        width: 80px;
+    }
+    .img-produtos {
+        height:80px;
+    }
+    .produtos{
+        margin-right: 10px;
+    }
+}
